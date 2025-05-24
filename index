@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LockedIn Games</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <!-- En-tête -->
+<nav class="navbar">
+        <ul>
+            <li><a href="ESCAPE">Accueil</a></li>
+            <li><a href="index">Notre Equipe</a></li>
+            <li><a href="contact">Telecharger le jeu </a></li>
+            
+        </ul>
+    </nav>
+		
+	 <br>  <br>
+    <h2>LockedIn Games</h2>
+    <p>
+        LockedIn Games a été créé par d'anciens élèves de l'EPITA, passionnés d'informatique, 
+        d'Escape Game et de jeux vidéo. Nous avons alors décidé de nous réunir et de fonder 
+        une entreprise de développement de jeux vidéo.
+    </p>
+
+    <!-- Section sur le jeu -->
+    <h2>ESCAPE</h2>
+<p>
+    Escape est le premier jeu que nous ayons développé et nous espérons qu'il va vous plaire. 
+    Escape est un jeu 2D immersif qui vous entraînera dans son ambiance sombre et mystérieuse. 
+   
+</p>
+
+    <!-- Équipe -->
+    <h2>L'Equipe De Devellopement :</h2>
+
+    <div class="logo-container">
+        <img src="image_site/lockedin_Games_logo.png" alt="Logo Lockedin Games" class="resize">
+
+    <div class="team">
+        <div class="member">
+            <h3>Magalhaes-Boulan Rafael</h3>
+  <img src="image_site/R.jpg" alt="Logo Lockedin Games" class="resize">
+            <p>Chef de groupe</p>
+	    <p>Coordonne les membres du groupes  </p>
+        </div>
+        <div class="member">
+            <h3>Batrancourt Baptiste</h3>
+  <img src="image_site/B.jpg" alt="Logo Lockedin Games" class="resize">
+            <p>En charge de la partie technique </p>
+        </div>
+        <div class="member">
+            <h3>Petit Guilhem</h3>
+
+            <img src="image_site/G.jpg" alt="Logo Lockedin Games" class="resize">
+<p> En charge de la parti histoire et design</p>        
+</div>
+    </div>
+
+    <!-- Logo -->
+        </div>
+</body>
+</html>

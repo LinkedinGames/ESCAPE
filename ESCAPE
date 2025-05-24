@@ -1,0 +1,56 @@
+<!DOCTYPE html>						
+<html lang="fr">					<!-- Racine document rédigé en html -->
+	<head>​ 	​<!-- Début de l'en-tête, indications sur la page - non visible à l'écran -->
+                <link rel="stylesheet" type="text/css" href="mystyle.css">
+		
+		<meta charset="UTF-8" > <!-- Type d'encodage des caractères utilisé -->
+		<title>ESCAPE </title>
+	​
+	</head>	​						<!-s- Fermeture de l'en-tête -->
+	<body>							<!-- Contenu de la page - visible à l'écran -->	
+ <nav class="navbar">
+        <ul>
+            <li><a href="ESCAPE">Accueil</a></li>
+            <li><a href="index">Notre Equipe</a></li>
+            <li><a href="contact">Telecharger le jeu </a></li>
+            
+        </ul>
+    </nav>
+		
+	 <br>  <br> 
+
+
+     <h2>ESCAPE</h2>
+	
+	
+		<p>Escape est le premier jeu developpé par le studio LockedIn Games  , il s agit d un jeu 2D qui  entre dans le genre du "Metroid-Vania" . </p>	
+	   <p>Escape est un jeu qui a pour objectif de créer une ambiance inquiétante afin de jouer sur l'immersion des joueurs  .</p>
+	   <p>Escape s inspire d'autre jeu 2D du même style comme Hollow Knight sur son ambiance sombre et immersive par exemple 
+
+
+	
+	<h2>L'Histoire </p> </h2>
+		
+		<p>
+
+Bienvenue dans l’industrie LockedIn Energy, un géant de l’industrie énergétique, synonyme de puissance et d’innovation scientifique. Pour beaucoup, cette société est une bénédiction pour l’humanité, apportant une énergie propre et illimitée grâce à des méthodes révolutionnaires. Mais derrière cette façade impeccable se cache un sombre secret. 
+
+L’histoire commence avec vous. Vous êtes un jeune scientifique plein d’ambition, récemment embauché par LockedIn Energy. Fier d’avoir intégré l’élite des entreprises énergétiques, vous arrivez plein d'ambition dans ce laboratoire ultra-sécurisé, où tout semble mystérieusement trop parfait. 
+
+Ce jour-là, votre curiosité vous pousse à explorer les entrailles du complexe. Ce que vous découvrez dépasse l’entendement : une espèce étrange, une sorte de "monstre" énigmatique, maintenue captive. </p>
+		<p>le développement du jeu devrait être fini vers juin 2025 .</p>
+<h2>Logo de Lockedin Games</h2>
+    <div class="logo-container">
+        <img src="image_site/image.png" alt="Logo Lockedin Games" class="resize">
+    </div>
+											
+		
+
+            
+
+
+
+						<!-- Fermeture du corps de page -->
+</body>
+</html>	
+							<!-- Fermeture du document -->

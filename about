@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LockedIn Games</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <!-- En-tête -->
+<nav class="navbar">
+        <ul>
+            <li><a href="ESCAPE">Accueil</a></li>
+            <li><a href="index">Notre Equipe</a></li>
+            
+            <li><a href="about">À propos</a></li>
+        </ul>
+    </nav>
+		
+	 <br>  <br>
+    <h2>Telecharger le jeu</h2>
+   
+
+    <!-- Section sur le jeu -->
+    <h2>Manuel d'utilisation</h2>
+
+   <a href="manuel" download>telecharger ici</a>
+
+    <!-- Équipe -->
+    <h2>Rapport de soutenance final</h2>
+
+   </body>
+</html>
