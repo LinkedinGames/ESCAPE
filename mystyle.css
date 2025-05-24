@@ -1,0 +1,153 @@
+/* Styles généraux */
+body {
+    padding-top: 60px;
+    font-family: 'Cinzel', serif; /* Police élégante et immersive */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('image_site/labo.webp'); /* Image de fond */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #f4f4f4;
+}
+
+/* Effet sombre pour l'arrière-plan */
+body::before {
+    padding-top: 60px;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Couche sombre */
+    z-index: -1;
+}
+
+/* Titres */
+h2 {
+    color: #f05454; /* Rouge sombre */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f05454;
+    padding-bottom: 10px;
+}
+
+/* Sous-titres pour les membres */
+h3 {
+    color: #f05454;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+
+/* Paragraphes */
+p {
+    margin: 10px 20px;
+    text-align: center;
+    color: #f4f4f4;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Bloc des membres */
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    border-radius: 10px;
+}
+
+.member {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Fond léger pour chaque membre */
+    border: 2px solid #f05454;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Logo */
+.logo-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resize {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #f05454;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+.navbar {
+    background-color: #000000;
+    padding: 10px 0;
+    position: fixed; /* Fixer la navbar en haut de la page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Assurer que la navbar reste au-dessus du contenu */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative; /* Nécessaire pour l'animation sur le pseudo-élément */
+}
+
+/* Soulignement caractère par caractère au survol */
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.4s ease;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%; /* Le soulignement s'étend sur toute la largeur du texte */
+}
+
+.navbar ul li a span {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a:hover span {
+    animation: underlineAnimation 0.5s ease forwards;
+}
+
+@keyframes underlineAnimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
